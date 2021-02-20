@@ -1,10 +1,19 @@
 ---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
 permalink: /tags/{{ tag }}/
 layout: default
-title: "Tag archive"
-description: "All posts from the Blog tagged with “{{ tag }}”"
+title: Tag archive
 ---
 
 <h1>Tagged “{{ tag }}”</h1>
 
-{% set postslist = collections[tag] %} {% include "src/blog/index.njk" %}
+<ol>
+  {% set taglist = collections[ tag ] %} {% for post in taglist | reverse %}
+  <li>
+    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+  </li>
+  {% endfor %}
+</ol>
