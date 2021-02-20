@@ -5,8 +5,24 @@ prism: true
 
 <div class="container max-w-4xl mt-6 px-6">
   <div class="pb-5 mb-5">
-    <h1 class="font-bold text-5xl">{{title}}</h1>
-    <p class="text-center text-base leading-6 font-medium">
+    <h1 class="font-bold text-5xl mb-5">{{title}}</h1>
+    <p
+      class="text-gray-300 text-base leading-6 font-medium flex items-center justify-center"
+    >
+      <svg
+        class="w-6 h-6 mr-3"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M4 9v10a2 2 0 002 2h12a2 2 0 002-2V9M4 9V7a2 2 0 012-2h2M4 9h16m0 0V7a2 2 0 00-2-2h-2m0 0V3m0 2H8m0-2v2"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
       <time>
         {{ date | readableDate }} by
         <a>{{ author }}</a>
@@ -18,7 +34,7 @@ prism: true
     src="{{thumbnail}}"
     alt=""
   />
-  <article class="prose lg:prose-xl my-4 mx-auto text-gray-200">
+  <article class="prose lg:prose-lg my-4 mx-auto text-gray-300">
     {{ content | safe }}
   </article>
 </div>

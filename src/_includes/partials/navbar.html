@@ -1,6 +1,6 @@
-<div class="{{ 'lg:fixed' if path == 'home' }} w-full">
+<div class="w-full">
   <nav
-    class="flex items-center justify-center lg:justify-between flex-wrap p-6 lg:px-0 container mx-auto"
+    class="flex items-center justify-center md:justify-between flex-wrap p-6 md:px-0 container mx-auto"
     x-data="{ isOpen: false }"
     @keydown.escape="isOpen = false"
   >
@@ -31,7 +31,7 @@
     <button
       @click="isOpen = !isOpen"
       type="button"
-      class="ml-auto block lg:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500"
+      class="ml-auto block md:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500"
       :class="{ 'transition transform-180': isOpen }"
       aria-label="Menu"
     >
@@ -56,20 +56,36 @@
 
     <!--Menu-->
     <div
-      class="w-full flex-grow lg:flex lg:items-center lg:w-auto text-center"
+      class="w-full flex-grow md:flex md:items-center md:w-auto text-center"
       :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }"
       @click.away="isOpen = false"
       x-show.transition="true"
     >
       <ul
-        class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 items-center"
+        class="pt-6 md:pt-0 list-reset md:flex justify-end flex-1 items-center"
       >
-        <li class="nav__item mr-3">
+        <li class="nav__item md:mr-3">
           <a
             @click="isOpen = false"
-            class="text-ml inline-block text-gray-500 no-underline hover:text-indigo-500 py-2 px-4"
+            class="text-ml inline-block text-gray-500 no-underline hover:text-primary-500 py-2 px-4"
             href="/blog"
             >Blog</a
+          >
+        </li>
+        <li class="nav__item md:mr-3">
+          <a
+            @click="isOpen = false"
+            class="text-ml inline-block text-gray-500 no-underline hover:text-primary-500 py-2 px-4"
+            href="/about"
+            >About</a
+          >
+        </li>
+        <li class="nav__item">
+          <a
+            @click="isOpen = false"
+            class="text-ml inline-block text-gray-500 no-underline hover:text-primary-500 py-2 px-4"
+            href="/contact"
+            >Contact</a
           >
         </li>
       </ul>
