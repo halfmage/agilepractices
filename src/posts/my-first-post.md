@@ -1,60 +1,20 @@
 ---
-title: This is my first post
-description: Capitalize on low hanging fruit to identify a ballpark value added
-  activity to beta test. Override the digital divide with additional
-  clickthroughs from DevOps.
+title: Are blockchains trendy now?
+description: Albeit the vast majority believe blockchain innovation according to
+  digital forms of money, for example, Bitcoin, Doge, etc. blockchain guarantees
+  security that is valuable from numerous points of view.
 author: Surjith S M
 date: 2020-09-01
 tags:
   - left
   - center
   - right
+thumbnail: /static/img/pexels-david-mcbee-730564.jpg
 ---
-# This is a Heading h1
+Albeit the vast majority believe blockchain innovation according to digital forms of money, for example, **Bitcoin, Doge,** etc. blockchain guarantees security that is valuable from numerous points of view. The easiest way to explain is that blockchain can be portrayed as the information you can just add to, not extract from or update. Subsequently, the expression “chain” exists because you are creating a chain of information connected. Not having the option to change the previous data piece in the chain is exactly the thing that makes it so secure. Also, blockchain is consensus-driven, so that no separate substances can control the info-blocks. With blockchain, you needn’t bother with finding the outsider to administrate or approve transactions made. 
 
-## This is a Heading h2
+Some industries include blockchain in their day-to-day businesses nowadays. As the integration of blockchain develops, so too does the need for high-class experts. The requirement for the skill set of a blockchain engineer is that he or she has practical experience in creating and executing architecture setup and further development integrating blockchain technology. The standard yearly salary of a blockchain developer in Germany is about **60K Euro**. Not much, but we do not believe it is the right data, as this position is not properly and fully described at Glassdoor.
 
-###### This is a Heading h6
+On the off chance that you are interested in Blockchain and its development and want to make your business or career in this fast-developing domain, at that point this is the ideal opportunity to begin. To start with Blockchain development, you need to have pretty good experience in various programming languages, the essentials of OOPS, flat and relational databases, data architecture, web and app development, and of course networking.
 
-## Emphasis
-
-*This text will be italic*\
-*This will also be italic*
-
-**This text will be bold**\
-**This will also be bold**
-
-*You **can** combine them*
-
-## Lists
-
-### Unordered
-
-* Item 1
-* Item 2
-
-  * Item 2a
-  * Item 2b
-
-### Ordered
-
-1. Item 1
-2. Item 2
-3. Item 3
-
-   1. Item 3a
-   2. Item 3b
-
-## Links
-
-You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
-
-## Blockquotes
-
-> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
->
-> > Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
-
-## Inline code
-
-This web site is using `markedjs/marked`.
+Elon Musk’s announcement that [he’s just stashed $1.5 billion of the flagship cryptocurrency](https://fortune.com/2021/01/29/bitcoin-price-elon-musk-twitter-bio/) in Tesla’s corporate coffers. Now even Elon Musk became being super interested in blockchain and crypto-coins. Think about it because this is the future.

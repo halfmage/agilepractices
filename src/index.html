@@ -1,26 +1,36 @@
 ---
 layout: default
-title: Neat Starter
+title: Home
 path: home
 ---
 
 <div
   class="container mx-auto lg:h-screen flex flex-col justify-center items-center"
 >
-  <h1>
-    Welcome to
-    <strong
-      class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500"
-    >
-      {{title}}
-    </strong>
+  <h1
+    class="max-w-screen-lg text-center font-black bg-clip-text text-transparent bg-gradient-to-r from-primary-300 to-primary-600"
+  >
+    Latest trends and challenges of the international IT industry.
   </h1>
 
-  <p>
-    <abbr title="netlify cms, eleventy, alpine js & tailwind css">NEAT</abbr>
-    Starter Template. Get Started by editing.
-    <code class="bg-gray-100 text-blue-800 p-1">/index.njk</code>
+  <p class="my-8 text-lg">
+    Everything you need to know about the agility of the IT domain.
   </p>
 
-  {% include "./_includes/partials/content.html" %}
+  <div class="grid grid-cols-3 gap-8">
+    {%- for item in collections.post -%} {% if loop.index0 < 3 %}
+    <a
+      href="{{ item.url }}"
+      class="border border-gray-800 mb-2 inline-flex items-center justify-center flex-col p-8"
+    >
+      <img
+        src="{{ item.data.thumbnail }}"
+        alt="{{ item.data.title }} - Thumbnail"
+        class="w-full max-h-24 object-cover mb-6"
+      />
+      <h3 class="font-bold text-xl text-gray-100">{{ item.data.title }}</h3>
+      <p class="text-gray-300">{{ item.data.description }}</p>
+    </a>
+    {% endif %} {%- endfor -%}
+  </div>
 </div>
