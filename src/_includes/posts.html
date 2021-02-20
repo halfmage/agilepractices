@@ -28,6 +28,13 @@ prism: true
         <a>{{ author }}</a>
       </time>
     </p>
+
+    <p>
+      {% for tag in tags %} {%- if tag != "post" -%} {% set tagUrl %}/tags/{{
+      tag }}/{% endset %}
+      <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+      {%- endif -%} {% endfor %}
+    </p>
   </div>
   <img
     class="w-full mb-12 object-cover max-h-48 rounded shadow-2xl"

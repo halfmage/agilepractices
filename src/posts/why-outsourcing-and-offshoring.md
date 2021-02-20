@@ -7,7 +7,11 @@ description: Many companies face with lacking of relevant resources for the
   owners or technical leads try to find the way out from this situation.
 author: Alesia
 date: 2021-02-08T17:34:47.804Z
+tags:
+  - outsourcing
+  - offshoring
 ---
+
 Many companies face with lacking of relevant resources for the urgent project. That may be caused by inaccurate planning, fast business growth, dismissal of people or, lets say, apocalypses… In all cases, business owners or technical leads try to find the way out from this situation. Someone needs to save a project and keep a customer happy. So, they decide to hire new employees or outsource a project. Projects may be outsourced either within the country or abroad. As you prefer.
 
 ## Challenges!
@@ -22,9 +26,9 @@ Secondly, if you heard from one friend of you that he has successfully outsource
 
 Well, imagine that you have chosen this the one and only software development company. The following problems may appear:
 
-* misunderstanding/ language barriers;
-* providers do not understand the processes that your company use;
-* because of constant catch up on processes the development goes very slowly, etc.
+- misunderstanding/ language barriers;
+- providers do not understand the processes that your company use;
+- because of constant catch up on processes the development goes very slowly, etc.
 
 That is much easier to outsource the whole project. Moreover, it is easier to do mostly when the project is new and outsourcing team will be fully responsible for the delivery of project. On the other hand, if you need a dedicated team that will work together with your team, then misalignment, deliberate delivery time appear more often.
 

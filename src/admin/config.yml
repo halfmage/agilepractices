@@ -21,8 +21,9 @@ collections:
         widget: "image"
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Author", name: "author", widget: "string", default: "Alesia" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true }
       - { label: "Body", name: "body", widget: "markdown" }
   - label: "Settings"
     name: "settings"

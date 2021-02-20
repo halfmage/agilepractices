@@ -4,6 +4,12 @@
 
 /*Your Custom CSS Goes here*/
 
+.prose h1,
+.prose h2,
+.prose h3 {
+  color: #fff !important;
+}
+
 .eleventy-plugin-embed-instagram {
   width: 100%;
 }

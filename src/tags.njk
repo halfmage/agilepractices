@@ -1,0 +1,10 @@
+---
+permalink: /tags/{{ tag }}/
+layout: default
+title: "Tag archive"
+description: "All posts from the Blog tagged with “{{ tag }}”"
+---
+
+<h1>Tagged “{{ tag }}”</h1>
+
+{% set postslist = collections[tag] %} {% include "src/blog/index.njk" %}
