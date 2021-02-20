@@ -20,10 +20,13 @@ path: home
   <section>
     {%- for tag, posts in collections %} {% if loop.index0 > 1 %} {% set tagUrl
     %}/tags/{{ tag }}/{% endset %}
-    <a href="{{ tagUrl | url }}" rel="tag"
-      >{{ tag }} in {{ posts | length }} posts</a
-    >
-    {% endif %} {%- endfor %}
+    <a class="tag" href="{{ tagUrl | url }}" rel="tag"
+      >{{ tag }}
+      <span
+        class="bg-gray-900 w-6 h-6 ml-2 rounded-full inline-flex items-center justify-center"
+        >{{ posts | length }}</span
+      > </a
+    >{% endif %} {%- endfor %}
   </section>
 
   <div class="grid md:grid-cols-3 gap-8">

@@ -7,7 +7,15 @@
 .prose h1,
 .prose h2,
 .prose h3 {
-  color: #fff !important;
+  @apply text-gray-100;
+}
+
+.tag-container {
+  @apply flex justify-center items-center flex-wrap my-2;
+}
+
+.tag {
+  @apply m-1 bg-gray-800 text-gray-400 inline-flex items-center px-4 py-2 text-xs font-semibold tracking-wide uppercase rounded hover:bg-gray-700;
 }
 
 .eleventy-plugin-embed-instagram {

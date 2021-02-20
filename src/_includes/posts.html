@@ -1,47 +1,37 @@
 ---
 layout: default
-prism: true
 ---
 
-<div class="container max-w-4xl mt-6 px-6">
-  <div class="pb-5 mb-5">
-    <h1 class="font-bold text-5xl mb-5">{{title}}</h1>
-    <p
+<div class="container mx-auto px-4">
+  <div class="py-8">
+    <h1 class="mx-auto font-black text-primary-400 mb-8">{{title}}</h1>
+    <div
       class="text-gray-300 text-base leading-6 font-medium flex items-center justify-center"
     >
-      <svg
-        class="w-6 h-6 mr-3"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M4 9v10a2 2 0 002 2h12a2 2 0 002-2V9M4 9V7a2 2 0 012-2h2M4 9h16m0 0V7a2 2 0 00-2-2h-2m0 0V3m0 2H8m0-2v2"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
       <time>
         {{ date | readableDate }} by
         <a>{{ author }}</a>
       </time>
-    </p>
-
-    <p>
+    </div>
+    <div class="tag-container">
       {% for tag in tags %} {%- if tag != "post" -%} {% set tagUrl %}/tags/{{
       tag }}/{% endset %}
-      <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+      <a class="tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
       {%- endif -%} {% endfor %}
-    </p>
+    </div>
   </div>
-  <img
-    class="w-full mb-12 object-cover max-h-48 rounded shadow-2xl"
-    src="{{thumbnail}}"
-    alt=""
-  />
-  <article class="prose lg:prose-lg my-4 mx-auto text-gray-300">
-    {{ content | safe }}
-  </article>
+</div>
+<div class="container max-w-screen-lg mt-6 px-6">
+  <div class="">
+    <div class="">
+      <img
+        class="w-full mb-12 object-cover max-h-96 rounded shadow-2xl"
+        src="{{thumbnail}}"
+        alt=""
+      />
+      <article class="prose lg:prose-xl my-4 mx-auto text-gray-300">
+        {{ content | safe }}
+      </article>
+    </div>
+  </div>
 </div>

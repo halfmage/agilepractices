@@ -4,9 +4,9 @@
     x-data="{ isOpen: false }"
     @keydown.escape="isOpen = false"
   >
-    <div class="flex items-center">
+    <div class="flex items-center hover:opacity-80">
       <svg
-        class="text-primary-500 w-8 h-8 mr-2"
+        class="text-primary-400 w-8 h-8 mr-2"
         viewBox="0 0 72 72"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@
     <button
       @click="isOpen = !isOpen"
       type="button"
-      class="ml-auto block md:hidden px-2 text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500"
+      class="ml-auto block md:hidden px-2 text-primary-400 hover:text-primary-400 focus:outline-none focus:text-primary-400"
       :class="{ 'transition transform-180': isOpen }"
       aria-label="Menu"
     >
@@ -67,7 +67,7 @@
         <li class="nav__item md:mr-3">
           <a
             @click="isOpen = false"
-            class="text-ml inline-block text-gray-500 no-underline hover:text-primary-500 py-2 px-4"
+            class="text-ml inline-block text-gray-500 no-underline hover:text-primary-400 py-2 px-4"
             href="/blog"
             >Blog</a
           >
@@ -75,7 +75,7 @@
         <li class="nav__item md:mr-3">
           <a
             @click="isOpen = false"
-            class="text-ml inline-block text-gray-500 no-underline hover:text-primary-500 py-2 px-4"
+            class="text-ml inline-block text-gray-500 no-underline hover:text-primary-400 py-2 px-4"
             href="/about"
             >About</a
           >
@@ -83,7 +83,7 @@
         <li class="nav__item">
           <a
             @click="isOpen = false"
-            class="text-ml inline-block text-gray-500 no-underline hover:text-primary-500 py-2 px-4"
+            class="text-ml inline-block text-gray-500 no-underline hover:text-primary-400 py-2 px-4"
             href="/contact"
             >Contact</a
           >
