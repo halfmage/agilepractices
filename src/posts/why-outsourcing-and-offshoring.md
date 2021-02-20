@@ -16,7 +16,7 @@ First of all hiring is quite time consuming (depending on the country, of cour
 
 So if there is a project that must be launched yesterday and a Tech Lead spontaneously decided to move to Palma de Mallorca for living, well you are in trouble.
 
-![](https://media-exp1.licdn.com/dms/image/C4D12AQEQlE5MjcH9Yw/article-inline_image-shrink_1000_1488/0/1520273333493?e=1618444800&v=beta&t=20dt7x8YS58ACr0NNr5WZ8SWbxEt_JF4ZyeqIbRr0nA)
+![People laying on the beach](https://media-exp1.licdn.com/dms/image/C4D12AQEQlE5MjcH9Yw/article-inline_image-shrink_1000_1488/0/1520273333493?e=1618444800&v=beta&t=20dt7x8YS58ACr0NNr5WZ8SWbxEt_JF4ZyeqIbRr0nA)
 
 Secondly, if you heard from one friend of you that he has successfully outsourced his lovely Mobile application to Eastern European company, the idea of outsourcing comes to your mind. But the challenge is where to find this ideal, relevant, smart, flexible business partner? You can google and get in touch with random companies and spend 1 month on communication.
 
