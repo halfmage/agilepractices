@@ -1,5 +1,5 @@
 ---
-thumbnail: /static/img/pexels-christina-morillo-1181316-1-.jpg
+thumbnail: /static/img/pexels-christina-morillo-1181316-2-.jpg
 title: Project Management techniques to make customers happy
 description: Customers satisfaction is crucial for a successful
   business  Companies very often develop their own project management
@@ -11,16 +11,14 @@ date: 2021-02-22T16:49:06.653Z
 tags:
   - ProjectManagement
 ---
-![IT lady with a laptop](https://myagilepractices.files.wordpress.com/2021/02/pexels-christina-morillo-1181316.jpg?w=1024)
-
 Customers satisfaction is crucial for a successful business
 
-Companies very often develop their own project management techniques, tools and processes that they want to follow in their projects. Most of the time, the methodology to use for a project development is well-known for the majority of the company’s employees. However, experience and knowledge of an individual is always limited even though they are constantly attending specific workshops and trainings. But even then their knowledge is not equal to the average level of knowledge in the industry. Thus, no matter how long the company is on the market there are still a lot of gaps in the company’s processes.
+Companies very often develop their own project management techniques, tools, and processes that they want to follow in their projects. Most of the time, the methodology to use for project development is well-known for the majority of the company’s employees. However, the experience and knowledge of an individual are always limited even though they are constantly attending specific workshops and training. But even then their knowledge is not equal to the average level of knowledge in the industry. Thus, no matter how long the company is on the market there are still a lot of gaps in the company’s processes.
 
-As we all know each project is unique. It has different scope, budget and development time (project management triangular). Moreover, project stakeholders, tools that are obligatory to use in the organization, project environment make a project exclusive.
+As we all know each project is unique. It has a different scope, budget, and development time (project management triangular). Moreover, project stakeholders, tools that are obligatory to use in the organization, project environment make a project exclusive.
 
 **But what are the most important project management techniques in project development?** No matter if it is a software development project or construction project?\
-With the development and maturation of Project Management area, it becomes more possible to use different project management tools and techniques such as Visio, Jira, Microsoft Project, Confluence to manage each phase of the project successfully.\
+With the development and maturation of the Project Management area, it becomes more possible to use different project management tools and techniques such as Visio, Jira, Microsoft Project, Confluence to manage each phase of the project successfully.\
 In fact, the most important topic to think about while managing a project development is people relations. Of course, we develop a product. But who does that? Without people, a good team, it is impossible to start any initiative. Moreover, to develop a product successfully, this team must be united. They must have a clear understanding of what people expect from them scope-wise. And what is more important, what their customers, sponsors, all stakeholders expect from them.
 
 **Analysis of customer needs.**
