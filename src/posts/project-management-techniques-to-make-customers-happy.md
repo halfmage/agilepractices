@@ -1,5 +1,5 @@
 ---
-thumbnail: /static/img/pexels-christina-morillo-1181316-1-.jpg
+thumbnail: /static/img/pexels-christina-morillo-1181316-2-.jpg
 title: Project Management techniques to make customers happy
 description: Customers satisfaction is crucial for a successful
   business  Companies very often develop their own project management
