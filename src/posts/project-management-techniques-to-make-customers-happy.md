@@ -11,7 +11,7 @@ date: 2021-02-22T16:49:06.653Z
 tags:
   - ProjectManagement
 ---
-![](https://myagilepractices.files.wordpress.com/2021/02/pexels-christina-morillo-1181316.jpg?w=1024 "IT lady with a laptop")
+![IT lady with a laptop](https://myagilepractices.files.wordpress.com/2021/02/pexels-christina-morillo-1181316.jpg?w=1024)
 
 Customers satisfaction is crucial for a successful business
 
