@@ -1,5 +1,5 @@
 ---
-thumbnail: /static/img/pexels-anna-shvets-4226140.jpg
+thumbnail: /static/img/pexels-anna-shvets-4226140-1-.jpg
 title: Why outsourcing and offshoring?
 description: Many companies face with lacking of relevant resources for the
   urgent project. That may be caused by inaccurate planning, fast business
