@@ -11,8 +11,6 @@ date: 2021-02-22T16:49:06.653Z
 tags:
   - ProjectManagement
 ---
-![IT lady with a laptop](https://myagilepractices.files.wordpress.com/2021/02/pexels-christina-morillo-1181316.jpg?w=1024)
-
 Customers satisfaction is crucial for a successful business
 
 Companies very often develop their own project management techniques, tools and processes that they want to follow in their projects. Most of the time, the methodology to use for a project development is well-known for the majority of the company’s employees. However, experience and knowledge of an individual is always limited even though they are constantly attending specific workshops and trainings. But even then their knowledge is not equal to the average level of knowledge in the industry. Thus, no matter how long the company is on the market there are still a lot of gaps in the company’s processes.
