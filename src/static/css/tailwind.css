@@ -4,12 +4,6 @@
 
 /*Your Custom CSS Goes here*/
 
-.prose h1,
-.prose h2,
-.prose h3 {
-  @apply text-gray-100;
-}
-
 .tag-container {
   @apply flex justify-center items-center flex-wrap my-2;
 }

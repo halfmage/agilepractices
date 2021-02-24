@@ -12,7 +12,7 @@ layout: default
 </div>
 <div class="container mx-auto grid grid-cols-4 gap-4">
   <section class="col-span-3">
-    {% set postslist = collections.post %} {% for post in postslist %}
+    {% set postslist = collections.post %} {% for post in postslist | reverse %}
     <article class="p-8 flex border-b border-gray-800">
       {% if post.data.thumbnail %}
       <img
