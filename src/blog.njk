@@ -1,0 +1,70 @@
+---
+layout: default
+title: Blog
+subline: Everything you need to know about the agility of the IT domain.
+---
+
+<div class="container mx-auto px-4">
+  <div class="py-8">
+    <h1 class="pageHeadline">{{title}}</h1>
+    <p class="my-8 text-lg text-center">
+      {{subline}}
+    </p>
+  </div>
+</div>
+
+<div class="container px-5 py-24 mx-auto">
+  <div class="flex flex-wrap -m-4">
+    {% set postslist = collections.post %} {% for post in postslist | reverse %}
+    <div class="p-4 md:w-1/3">
+      <div
+        class="h-full shadow-xl bg-gray-800 border-opacity-60 rounded-lg overflow-hidden"
+      >
+        <img
+          class="lg:h-48 md:h-36 w-full object-cover object-center"
+          src="{{ post.data.thumbnail }}"
+          alt="blog"
+        />
+        <div class="p-6">
+          {% for tag in post.data.tags %} {%- if tag != "post" -%} {% set tagUrl
+          %}/tags/{{ tag }}/{% endset %}
+          <h2
+            class="inline uppercase tracking-wide text-xs title-font font-medium text-gray-400 mb-1"
+          >
+            {{ tag }}
+          </h2>
+          {%- endif -%} {% endfor %}
+          <h1 class="title-font text-2xl font-semibold text-gray-100 mb-3">
+            {% if post.data.title %} {{ post.data.title }} {% else %} Untitled
+            {% endif %}
+          </h1>
+          <p class="leading-relaxed mb-3 text-gray-400">
+            <time class="inline font-bold">
+              {{ post.date | readableDate }} by <a>{{ post.data.author }}</a>
+            </time>
+            - Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+            microdosing tousled waistcoat.
+          </p>
+          <div class="flex items-center flex-wrap">
+            <a href="{{post.url}}" class="text-primary-500 inline-flex font-bold items-center md:mb-2 lg:mb-0"
+              >Read article
+              <svg
+                class="w-6 h-6 ml-2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

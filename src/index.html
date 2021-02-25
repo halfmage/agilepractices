@@ -4,18 +4,9 @@ title: Home
 path: home
 ---
 
-<div class="container mx-auto px-4">
-  <div class="py-16">
-    <h1
-      class="max-w-screen-lg mx-auto font-black bg-clip-text text-transparent bg-gradient-to-r from-primary-300 to-primary-600"
-    >
-      Latest trends and challenges of the international IT industry.
-    </h1>
+{% include "partials/hero.html" %}
 
-    <p class="my-8 text-lg text-center">
-      Everything you need to know about the agility of the IT domain.
-    </p>
-  </div>
+<div class="container mx-auto px-4">
 
   <section>
     {%- for tag, posts in collections %} {% if loop.index0 > 1 %} {% set tagUrl
