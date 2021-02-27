@@ -8,20 +8,10 @@ path: home
 
 <div class="container mx-auto px-4">
 
-  <section>
-    {%- for tag, posts in collections %} {% if loop.index0 > 1 %} {% set tagUrl
-    %}/tags/{{ tag }}/{% endset %}
-    <a class="tag" href="{{ tagUrl | url }}" rel="tag"
-      >{{ tag }}
-      <span
-        class="bg-gray-900 w-6 h-6 ml-2 rounded-full inline-flex items-center justify-center"
-        >{{ posts | length }}</span
-      > </a
-    >{% endif %} {%- endfor %}
-  </section>
-
-  <div class="grid md:grid-cols-3 gap-8">
-    {%- for item in collections.post -%} {% if loop.index0 < 3 %}
+  <div class="py-16">
+    <h2 class="text-center text-4xl font-bold mb-8">Latest articles</h2>
+    <div class="grid md:grid-cols-3 gap-8 ">
+      {%- for item in collections.post -%} {% if loop.index0 < 3 %}
     <a
       href="{{ item.url }}"
       class="border border-gray-800 inline-flex flex-col hover:bg-gray-800"
@@ -40,5 +30,19 @@ path: home
       </div>
     </a>
     {% endif %} {%- endfor -%}
+    </div>
   </div>
+
+  
+
+  <section>
+    <h2 class="text-center text-4xl font-bold mb-8">Topics</h2>
+    <div class="flex flex-wrap justify-center">
+      {%- for tag, posts in collections %} {% if loop.index0 > 1 %} {% set tagUrl
+        %}/tags/{{ tag }}/{% endset %}
+        <a class="tag" href="{{ tagUrl | url }}" rel="tag"
+          >{{ tag }} ({{ posts | length }})</a
+        >{% endif %} {%- endfor %}
+    </div>
+  </section>
 </div>
