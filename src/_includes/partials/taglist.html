@@ -1,0 +1,7 @@
+
+    <div class="tag-container">
+      {% for tag in tags %} {%- if tag != "post" -%} {% set tagUrl %}/tags/{{
+      tag }}/{% endset %}
+      <a class="tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+      {%- endif -%} {% endfor %}
+    </div>

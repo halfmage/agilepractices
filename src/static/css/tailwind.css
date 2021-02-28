@@ -4,8 +4,8 @@
 
 /*Your Custom CSS Goes here*/
 
-.tag-container {
-  @apply flex justify-center items-center flex-wrap my-2;
+.page-headline {
+  @apply tracking-tighter mb-4 text-center text-xl md:text-2xl lg:text-5xl text-gray-100 font-bold;
 }
 
 .tag {
@@ -14,15 +14,4 @@
 
 .eleventy-plugin-embed-instagram {
   width: 100%;
-}
-
-.pageHeadline {
-  @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
-}
-
-/* Syntax Highlighting*/
-
-body :not(pre) > code[class*="language-"],
-body pre[class*="language-"] {
-  @apply bg-gray-800;
 }

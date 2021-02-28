@@ -4,7 +4,7 @@ layout: default
 
 <div class="container mx-auto px-4">
   <div class="py-8">
-    <h1 class="font-black text-primary-400 mb-8 md:text-4xl text-xl text-center max-w-screen-md mx-auto">{{title}}</h1>
+    <h1 class="page-headline">{{title}}</h1>
     <div
       class="text-gray-300 text-base leading-6 font-medium flex items-center justify-center"
     >
@@ -13,12 +13,7 @@ layout: default
         <a>{{ author }}</a>
       </time>
     </div>
-    <div class="tag-container">
-      {% for tag in tags %} {%- if tag != "post" -%} {% set tagUrl %}/tags/{{
-      tag }}/{% endset %}
-      <a class="tag" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-      {%- endif -%} {% endfor %}
-    </div>
+    {% include "partials/taglist.html" %}
   </div>
 </div>
 <div class="container max-w-screen-lg px-6">
