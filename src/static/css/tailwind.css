@@ -5,7 +5,11 @@
 /*Your Custom CSS Goes here*/
 
 .page-headline {
-  @apply tracking-tighter mb-4 text-center text-xl md:text-2xl lg:text-5xl text-gray-100 font-bold;
+  @apply tracking-tighter mb-6 text-center text-xl md:text-2xl lg:text-5xl text-primary-500 font-bold;
+}
+
+.tag-container {
+  @apply flex justify-center items-center my-4; 
 }
 
 .tag {
