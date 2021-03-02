@@ -6,35 +6,63 @@ path: home
 
 {% include "partials/hero.html" %}
 
-<div class="container mx-auto px-4">
-
-  <div class="py-16">
-    <h2 class="text-center text-4xl font-bold mb-8">Latest articles</h2>
-    <div class="grid md:grid-cols-3 gap-8 ">
-      {%- for item in collections.post -%} {% if loop.index0 < 3 %}
-    <a
-      href="{{ item.url }}"
-      class="border border-gray-800 inline-flex flex-col hover:bg-gray-800"
-    >
-      <img
-        src="{{ item.data.thumbnail }}"
-        alt="{{ item.data.title }} - Thumbnail"
-        class="w-full max-h-24 object-cover"
-      />
-      <div class="p-5">
-        <div class="font-bold text-xl text-gray-100">{{ item.data.title }}</div>
-        <time class="block my-2 text-gray-400">
-          {{ item.data.date | readableDate }}
-        </time>
-        <p class="text-gray-300">{{ item.data.description }}</p>
+<div class="container px-5 pb-24 mx-auto -mt-16">
+  <div class="flex flex-wrap -m-4">
+    {% set postslist = collections.post %} {% for post in postslist | reverse %} {% if loop.index0 < 3 %}
+    <div class="p-4 md:w-1/3">
+      <div
+        class="h-full shadow-xl bg-gray-800 border-opacity-60 rounded-lg overflow-hidden shadow-xl"
+      >
+        <img
+          class="lg:h-48 md:h-36 w-full object-cover object-center"
+          src="{{ post.data.thumbnail }}"
+          alt="blog"
+        />
+        <div class="p-6">
+          {% for tag in post.data.tags %} {%- if tag != "post" -%} {% set tagUrl
+          %}/tags/{{ tag }}/{% endset %}
+          <h2
+            class="inline uppercase tracking-wide text-xs title-font font-medium text-gray-400 mb-1"
+          >
+            {{ tag }}
+          </h2>
+          {%- endif -%} {% endfor %}
+            <a href="{{post.url}}" class="block title-font text-2xl font-semibold text-gray-100 mb-3 hover:underline hover:text-primary-500">
+              {% if post.data.title %} {{ post.data.title }} {% else %} Untitled
+              {% endif %}
+            </a>
+          <p class="leading-relaxed mb-3 text-gray-400">
+            <time class="inline font-bold">
+              {{ post.date | readableDate }} by <a>{{ post.data.author }}</a>
+            </time>
+            - Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+            microdosing tousled waistcoat.
+          </p>
+          <div class="flex items-center flex-wrap">
+            <a href="{{post.url}}" class="text-primary-500 inline-flex font-bold items-center md:mb-2 lg:mb-0"
+              >Read article
+              <svg
+                class="w-6 h-6 ml-2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
-    </a>
-    {% endif %} {%- endfor -%}
     </div>
+    {% endif %} {% endfor %}
   </div>
+</div>
 
-  
-
+<div class="container mx-auto px-4">
   <section>
     <h2 class="text-center text-4xl font-bold mb-8">Topics</h2>
     <div class="flex flex-wrap justify-center">

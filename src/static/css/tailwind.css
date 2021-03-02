@@ -5,7 +5,7 @@
 /*Your Custom CSS Goes here*/
 
 .page-headline {
-  @apply tracking-tighter mb-6 text-center text-xl md:text-2xl lg:text-5xl text-primary-500 font-bold;
+  @apply tracking-tighter mb-6 text-center text-xl md:text-2xl lg:text-6xl text-primary-500 font-bold;
 }
 
 .tag-container {
