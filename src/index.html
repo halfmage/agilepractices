@@ -7,7 +7,7 @@ path: home
 {% include "partials/hero.html" %}
 
 <div class="container pb-24 mx-auto -mt-16">
-  <div class="grid md:grid-cols-3 grid-cols-1 gap-8 px-4">
+  <div class="grid lg:grid-cols-3 grid-cols-1 gap-8 px-4">
     {% set postslist = collections.post %} {% for post in postslist | reverse %} {% if loop.index0 < 3 %}
     <div class="">
       <div
@@ -21,13 +21,14 @@ path: home
         <div class="p-6">
           {% for tag in post.data.tags %} {%- if tag != "post" -%} {% set tagUrl
           %}/tags/{{ tag }}/{% endset %}
+          {% if loop.index0 < 2 %}
           <h2
-            class="inline uppercase tracking-wide text-xs title-font font-medium text-gray-400 mb-1"
+            class="inline uppercase tracking-wider text-xs title-font font-medium text-gray-400 mb-1 mr-1"
           >
             {{ tag }}
           </h2>
-          {%- endif -%} {% endfor %}
-            <a href="{{post.url}}" class="block title-font text-2xl font-semibold text-gray-100 mb-3 hover:underline hover:text-primary-500">
+          {%- endif -%} {%- endif -%} {% endfor %}
+            <a href="{{post.url}}" class="block title-font text-2xl font-bold text-gray-100 mb-3 hover:underline hover:text-primary-500">
               {% if post.data.title %} {{ post.data.title }} {% else %} Untitled
               {% endif %}
             </a>
