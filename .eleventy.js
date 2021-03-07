@@ -4,6 +4,8 @@ const htmlmin = require("html-minifier");
 const embedInstagram = require("eleventy-plugin-embed-instagram");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("./src/static/img");
+
   // Copy Static Files to /_Site
   eleventyConfig.addPassthroughCopy({
     "./_tmp/static/css/style.css": "./static/css/style.css",
