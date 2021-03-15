@@ -2,17 +2,17 @@
 thumbnail: /static/img/pexels-markus-spiske-3970330.jpg
 title: Corona impact on businesses and further booming trends
 description: Pandemics and the fact that a lot of people were not able to work
-  from home damaged the European economy severely. In the picture below it is
-  seen that the majority of the countries are in a recession after about a year
-  of pandemic situation. The only major economy to grow in 2020 was China. It
-  registered a growth of 2.3%.
+  at all or without the possibility to do the job from home damaged the European
+  economy severely. In the picture below it is seen that the majority of the
+  countries are in a recession after about a year of pandemic situation. The
+  only major economy to grow in 2020 was China.
 author: Alesia
 date: 2021-03-13T19:36:50.858Z
 tags:
   - Entrepreneurship
   - trends
 ---
-Pandemics and the fact that a lot of people were not able to work at all without possibility to do the job from home damaged the European economy severely. In the picture below it is seen that the majority of the countries are in a recession after about a year of pandemic situation. The only major economy to grow in 2020 was **China**. [It registered a growth of 2.3%](https://www.bbc.com/news/business-55699971). 
+Pandemics and the fact that a lot of people were not able to work at all or without the possibility to do the job from home damaged the European economy severely. In the picture below it is seen that the majority of the countries are in a recession after about a year of pandemic situation. The only major economy to grow in 2020 was **China**. [It registered a growth of 2.3%](https://www.bbc.com/news/business-55699971). 
 
 ![Majority of countries in recession - Jan 2021](https://ichef.bbci.co.uk/news/640/cpsprodpb/B7D5/production/_116616074_optimised-3-gdp_map_jan_2021_640-nc.png)
 
