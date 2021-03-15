@@ -37,8 +37,6 @@ Scrum product owner responsibilities **include:**
 
 The scrum guide doesn't tell anything about the Product Owner taking care of resources and guiding team members in their career development (as usually, talent leads are doing). Some companies that are on the way to digital transformation are trying to shift previously working hierarchical relations between employees into agile, the horizontal one, where are only roles, not levels of power.
 
-
-
-*Please do not hesitate to send us your opinion on who is a PO, team lead, or product lead, to [agilepractices@gmail.com](mailto:agilepractices@gmail.com)!* 
+*Please do not hesitate to send us your opinion on who is a PO, team lead, or product lead, to [agilepracticesclub@gmail.com](mailto:agilepractices@gmail.com)!* 
 
 ***Let's build a modern IT community together!***
